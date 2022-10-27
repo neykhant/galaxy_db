@@ -1,0 +1,135 @@
+:root {
+  --primary-color: #433b3a;
+  --secondary-color: #4f762f;
+  --black-color: #000000;
+  --white-color: #ffffff;
+  --info-color: #c4c4c4;
+  --muted-color: #e5e5e5;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+a {
+  color: #000 !important;
+  text-decoration: none;
+}
+
+/* label style override */
+.ant-form-item-required {
+  color: var(--white-color) !important;
+  background-color: var(--primary-color);
+  padding: 4px !important;
+  margin-top: 4px !important;
+  margin-right: 4px !important;
+  border-radius: 10px;
+}
+
+/* menu style override */
+.ant-tooltip-inner a {
+  color: var(--white-color) !important;
+}
+
+/* for print error two pages */
+@media print {
+  html,
+  body {
+    height: initial !important;
+    overflow: initial !important;
+  }
+}
+
+/* .highlight-bottom-border > td {
+  border-bottom: solid 1px black !important;
+}
+
+.highlight-top-border > td {
+  border-top: solid 2px black !important;
+  border-bottom: solid 2px #6d9eff !important;
+} */
+
+.ant-table.ant-table-bordered
+  > .ant-table-container
+  > .ant-table-content
+  > table
+  > thead
+  > tr
+  > th,
+.ant-table.ant-table-bordered
+  > .ant-table-container
+  > .ant-table-header
+  > table
+  > thead
+  > tr
+  > th,
+.ant-table.ant-table-bordered
+  > .ant-table-container
+  > .ant-table-body
+  > table
+  > thead
+  > tr
+  > th,
+.ant-table.ant-table-bordered
+  > .ant-table-container
+  > .ant-table-summary
+  > table
+  > thead
+  > tr
+  > th,
+.ant-table.ant-table-bordered
+  > .ant-table-container
+  > .ant-table-body
+  > table
+  > tbody
+  > tr
+  > td,
+.ant-table.ant-table-bordered
+  > .ant-table-container
+  > .ant-table-summary
+  > table
+  > tbody
+  > tr
+  > td,
+.ant-table.ant-table-bordered
+  > .ant-table-container
+  > .ant-table-content
+  > table
+  > tfoot
+  > tr
+  > th,
+.ant-table.ant-table-bordered
+  > .ant-table-container
+  > .ant-table-header
+  > table
+  > tfoot
+  > tr
+  > th,
+.ant-table.ant-table-bordered
+  > .ant-table-container
+  > .ant-table-body
+  > table
+  > tfoot
+  > tr
+  > th {
+  background: var(--primary-color);
+  color: white !important;
+}
+
+.ant-table table {
+  font-size: 12px !important;
+}
+
+
+/* .bg-reds{background: yellow;}
+.bg-red{background: red;} */

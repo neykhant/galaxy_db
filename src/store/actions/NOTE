@@ -1,0 +1,46 @@
+{
+    "expenses": [
+        {
+            "name": "မီးတာခ12",
+            "amount": 1120000
+        },
+        {
+            "name": "မီးတာခ1",
+            "amount": 110000
+        }
+    ],
+    "shop_id": "1"
+}
+
+09123456789
+09777777777
+
+
+
+
+
+    // form.resetFields();
+    // if (fileList.length === 0) {
+    //   message.error("ကျေးဇူးပြု၍ပစ္စည်းပုံထည့်ပါ");
+    // }
+    //   if (fileList.length > 0) {
+    //       console.log("first")
+    //     setItems([
+    //       ...items,
+    //       { ...values }
+    //     ]);
+    //     setFileList([]);
+    //     form.resetFields();
+    //   }
+    // };
+    // const handleDelete = (record) => {
+    //   const filterItems = items.filter((item) => item !== record);
+    //   setItems(filterItems);
+    // };
+    // const handleSave = async () => {
+    //   if (items.length === 0) {
+    //     message.error("ကျေးဇူးပြု၍ပစ္စည်းများထည့်ပါ");
+    //   } else {
+    //     await saveItems(items);
+    //     setItems([]);
+    //   }
